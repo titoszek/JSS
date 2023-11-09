@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <title> Tymon Dzieninis </title>
+</head>
+<body>
+   <div style="color:red;font-size:40px;">
+      <script language="JavaScript">
+         var D1=prompt("dzien 1=");
+         var G1=prompt("godzina 1=");
+         var D2=prompt("dzien 2=");
+         var G2=prompt("godzina 2=");
+         var a1=parseFloat(D1);
+         var b1=parseFloat(G2);
+         var c2=parseFloat(D2);
+         var d2=parseFloat(G2);
+         var wynik=((a1-c2)*24*3600)+((b1-d2)*3600);
+         document.write("Ilość sekund = " + wynik );
+      </script>
+   </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head></head>
+        <body>
+            <script type="text/javascript">
+                function okno_zamknij_Dzieninis()
+                    {window.close()}
+
+                function WinOpen_Dzieninis_1()
+                    {window.open("grafika1.html","okienko_g1","toolbar=no,directories=no,menubar=no,height=300,width=200,top=600,left=500");}
+					
+
+                function WinOpen_Dzieninis_2()
+                    {window.open("grafika2.html","okienko_g2","toolbar=no,directories=no,menubar=no,height=300,width=200,top=600,left=820");}
+
+                function WinOpen_Dzieninis_3()
+                    {window.open("grafika3.html","okienko_g3","toolbar=no,directories=no,menubar=no,height=300,width=200,top=600,left=1140");}
+                    
+                function WinOpen_Dzieninis_4()
+                    {window.open("grafika4.html","okienko_g4","toolbar=no,directories=no,menubar=no,height=300,width=200,top=600,left=1460");}
+					
+                    
+                document.write("Wykonał: Tymon Dzieninis mój numer w dzienniku 4, czyli mam układ [(4) mod 4=1] układ 1".fontcolor("red").fontsize(7).bold()+"<br><br><center>");
+            </script>
+
+                <input type="button" value="grafika1" onclick="WinOpen_Dzieninis_1(' ')">
+                <input type="button" value="grafika2" onclick="WinOpen_Dzieninis_2(' ')">
+                <input type="button" value="grafika3" onclick="WinOpen_Dzieninis_3(' ')">
+                <input type="button" value="grafika4" onclick="WinOpen_Dzieninis_4(' ')"><br><br>
+
+                <input type="button" value="Zamknij okno" onclick="okno_zamknij_Dzieninis(' ')">
+        </body>
+</html>
